@@ -6,8 +6,10 @@
 
 <script>
 import Vue from 'vue'
+import Vuex from 'vuex'
+Vue.use(Vuex)
 
-
+console.log($store.state.count)
 export default {
   name: 'Aaa',
   data () {
